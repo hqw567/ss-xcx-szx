@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "class-title": "/components/library/ClassTitle",
+    "class-more": "/components/library/ClassMore",
+    "news-list": "/components/list/NewsList",
+    "home-skeleton": "/components/library/HomeSkeleton"
+  }
+}

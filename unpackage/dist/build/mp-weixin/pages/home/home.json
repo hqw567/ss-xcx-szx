@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "上职校网",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "nav-search": "/components/library/NavSearch",
+    "home-top": "/pages/home/components/HomeTop",
+    "home-news": "/pages/home/components/HomeNews",
+    "home-school": "/pages/home/components/HomeSchool",
+    "home-major": "/pages/home/components/HomeMajor",
+    "btn-suspend": "/components/library/BtnSuspend"
+  }
+}

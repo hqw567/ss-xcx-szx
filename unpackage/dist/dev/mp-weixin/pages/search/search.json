@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-input": "/pages/search/components/SearchInput"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "中职专业",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "major-list": "/components/list/MajorList",
+    "btn-suspend": "/components/library/BtnSuspend"
+  }
+}

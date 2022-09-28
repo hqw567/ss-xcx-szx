@@ -1,0 +1,1 @@
+<navigator url><button class="consult" style="{{'bottom:'+(isFavor?'10px':'')+';'}}" open-type="contact"><image class="img" src="../../static/images/other/service.png" mode></image><text>咨询</text></button></navigator>

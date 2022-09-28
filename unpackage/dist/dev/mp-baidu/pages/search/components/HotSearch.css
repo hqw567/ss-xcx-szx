@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+button.data-v-27282b1a::after {
+  border: none;
+}
+button.data-v-27282b1a {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.35;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  color: #707070;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+.unify-list.data-v-27282b1a {
+  padding: 8px 20px;
+  margin-top: 15px;
+}
+.unify-list .tit.data-v-27282b1a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+.unify-list .tit.data-v-27282b1a:before {
+  content: '';
+  width: 4px;
+  height: 12px;
+  border-radius: 5px;
+  margin-right: 4px;
+  display: block;
+  background-color: #0092ff;
+}
+.unify-list .history-tit.data-v-27282b1a {
+  display: flex;
+  justify-content: space-between;
+}
+.unify-list .history-tit .img.data-v-27282b1a {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.unify-list .history-box.data-v-27282b1a {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -14px;
+  overflow: hidden;
+}
+.unify-list .history-box .item.data-v-27282b1a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: calc(100% - 30px);
+  font-size: 13px;
+  padding: 4px 15px;
+  margin-right: 12px;
+  margin-top: 14px;
+  border-radius: 50px;
+  background-color: #ececef;
+  color: #868897;
+}
+.unify-list .hot-box.data-v-27282b1a {
+  font-size: 16px;
+  color: #181818;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.unify-list .hot-box .num.data-v-27282b1a {
+  display: inline-block;
+  width: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 4px;
+  color: #bfbfbf;
+}
+.unify-list .hot-box .item:nth-child(-n + 3) .num.data-v-27282b1a {
+  color: #ff942d;
+}
+.unify-list .hot-box .item.data-v-27282b1a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 48%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+

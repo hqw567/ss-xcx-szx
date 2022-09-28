@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "major-list": "/components/list/MajorList",
+    "class-title": "/components/library/ClassTitle",
+    "class-more": "/components/library/ClassMore"
+  }
+}

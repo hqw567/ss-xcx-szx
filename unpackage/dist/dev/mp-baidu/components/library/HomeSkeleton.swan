@@ -1,0 +1,1 @@
+<view class="{{['xtx-skeleton','data-v-d037ba0a',(animated)?'shan':'']}}" style="{{'width:'+(width)+';'+('height:'+(height)+';')+('border-radius:'+(borderRadius)+';')}}"><view class="block data-v-d037ba0a" style="{{'background-color:'+(bg)+';'}}"></view></view>

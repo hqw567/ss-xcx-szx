@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/news/news",
+    "pages/school/school",
+    "pages/major/major",
+    "pages/details/news",
+    "pages/details/school",
+    "pages/details/major",
+    "pages/search/search",
+    "pages/form/form"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "上职校网",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0092ff",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_fill.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "static/images/tabbar/news.png",
+        "selectedIconPath": "static/images/tabbar/news_fill.png"
+      },
+      {
+        "pagePath": "pages/school/school",
+        "text": "学校",
+        "iconPath": "static/images/tabbar/school.png",
+        "selectedIconPath": "static/images/tabbar/school_fill.png"
+      },
+      {
+        "pagePath": "pages/major/major",
+        "text": "专业",
+        "iconPath": "static/images/tabbar/major.png",
+        "selectedIconPath": "static/images/tabbar/major_fill.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000
+  },
+  "usingComponents": {}
+}

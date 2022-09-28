@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "中职学校",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "school-list": "/components/list/SchoolList",
+    "btn-suspend": "/components/library/BtnSuspend"
+  }
+}

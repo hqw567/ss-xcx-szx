@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-input": "/pages/search/components/SearchInput",
+    "news-list": "/components/list/NewsList",
+    "major-list": "/components/list/MajorList",
+    "school-list": "/components/list/SchoolList"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="wrap-icon data-v-4d345f0a"><image class="icon data-v-4d345f0a" style="{{'width:'+(size+'px')+';'+('height:'+(size+'px')+';')+('margin:'+(margin)+';')}}" src="{{src}}" mode></image></view>

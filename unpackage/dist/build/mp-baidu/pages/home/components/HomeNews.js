@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/home/components/HomeNews"],{"1a2c":function(n,e,t){"use strict";var o;t.d(e,"b",(function(){return c})),t.d(e,"c",(function(){return r})),t.d(e,"a",(function(){return o}));var c=function(){var n=this,e=n.$createElement;n._self._c},r=[]},"1d4b":function(n,e,t){"use strict";var o=t("72c7"),c=t.n(o);c.a},"72c7":function(n,e,t){},ade0:function(n,e,t){"use strict";t.r(e);var o=t("eb02"),c=t.n(o);for(var r in o)"default"!==r&&function(n){t.d(e,n,(function(){return o[n]}))}(r);e["default"]=c.a},eb02:function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o=t("fe53"),c=function(){t.e("components/library/ClassTitle").then(function(){return resolve(t("1e00"))}.bind(null,t)).catch(t.oe)},r=function(){Promise.all([t.e("common/vendor"),t.e("components/list/NewsList")]).then(function(){return resolve(t("8639"))}.bind(null,t)).catch(t.oe)},a=function(){t.e("components/library/ClassMore").then(function(){return resolve(t("296c"))}.bind(null,t)).catch(t.oe)},u=function(){t.e("components/library/HomeSkeleton").then(function(){return resolve(t("0e17"))}.bind(null,t)).catch(t.oe)},i={name:"HomeNews",components:{ClassTitle:c,ClassMore:a,NewsList:r,HomeSkeleton:u},data:function(){return{newsData:[]}},created:function(){var n=this;(0,o.getNewsList)().then((function(e){n.newsData=e.data.rows}))}};e.default=i},f8c1:function(n,e,t){"use strict";t.r(e);var o=t("1a2c"),c=t("ade0");for(var r in c)"default"!==r&&function(n){t.d(e,n,(function(){return c[n]}))}(r);t("1d4b");var a,u=t("f0c5"),i=Object(u["a"])(c["default"],o["b"],o["c"],!1,null,"57ed2277",null,!1,o["a"],a);e["default"]=i.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/home/components/HomeNews-create-component',
+    {
+        'pages/home/components/HomeNews-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('5486')['createComponent'](__webpack_require__("f8c1"))
+        })
+    },
+    [['pages/home/components/HomeNews-create-component']]
+]);

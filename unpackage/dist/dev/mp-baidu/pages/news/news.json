@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "中职资讯",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 150,
+  "navigationStyle": "custom",
+  "component": true,
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "news-list": "/components/list/NewsList",
+    "btn-suspend": "/components/library/BtnSuspend",
+    "concern": "/components/library/Concern",
+    "navigation-bar-list": "/components/library/NavigationBarList",
+    "h-divider": "/components/library/HDivider"
+  }
+}

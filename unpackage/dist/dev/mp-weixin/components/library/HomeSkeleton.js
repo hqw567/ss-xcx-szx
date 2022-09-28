@@ -1,0 +1,11 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/library/HomeSkeleton"],{387:function(e,n,t){"use strict";t.r(n);var r=t(388),u=t(390);for(var o in u)"default"!==o&&function(e){t.d(n,e,(function(){return u[e]}))}(o);t(392);var i,a=t(11),c=Object(a["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,"d037ba0a",null,!1,r["components"],i);c.options.__file="components/library/HomeSkeleton.vue",n["default"]=c.exports},388:function(e,n,t){"use strict";t.r(n);var r=t(389);t.d(n,"render",(function(){return r["render"]})),t.d(n,"staticRenderFns",(function(){return r["staticRenderFns"]})),t.d(n,"recyclableRender",(function(){return r["recyclableRender"]})),t.d(n,"components",(function(){return r["components"]}))},389:function(e,n,t){"use strict";var r;t.r(n),t.d(n,"render",(function(){return u})),t.d(n,"staticRenderFns",(function(){return i})),t.d(n,"recyclableRender",(function(){return o})),t.d(n,"components",(function(){return r}));var u=function(){var e=this,n=e.$createElement;e._self._c},o=!1,i=[];u._withStripped=!0},390:function(e,n,t){"use strict";t.r(n);var r=t(391),u=t.n(r);for(var o in r)"default"!==o&&function(e){t.d(n,e,(function(){return r[e]}))}(o);n["default"]=u.a},391:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var r={name:"XtxSkeleton",props:{bg:{type:String,default:"#ebebeb"},width:{type:String,default:"100%"},height:{type:String,default:"100%"},borderRadius:{type:String,default:"0px"},animated:{type:Boolean,default:!0}}};n.default=r},392:function(e,n,t){"use strict";t.r(n);var r=t(393),u=t.n(r);for(var o in r)"default"!==o&&function(e){t.d(n,e,(function(){return r[e]}))}(o);n["default"]=u.a},393:function(e,n,t){}}]);
+//# sourceMappingURL=../../../.sourcemap/mp-weixin/components/library/HomeSkeleton.js.map
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/library/HomeSkeleton-create-component',
+    {
+        'components/library/HomeSkeleton-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('1')['createComponent'](__webpack_require__(387))
+        })
+    },
+    [['components/library/HomeSkeleton-create-component']]
+]);

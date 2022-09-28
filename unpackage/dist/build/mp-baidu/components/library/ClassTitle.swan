@@ -1,0 +1,1 @@
+<view class="data-v-8d8ce346"><view class="class-tit data-v-8d8ce346"><text class="tit data-v-8d8ce346">{{tit}}</text><view data-event-opts="{{[['tap',[['onMore']]]]}}" class="more data-v-8d8ce346" bindtap="__e">更多<image class="img data-v-8d8ce346" src="../../static/images/other/more.png" mode></image></view></view></view>

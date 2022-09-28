@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html",
+    "details-suspend": "/components/library/DetailsSuspend",
+    "details-skeleton": "/components/library/DetailsSkeleton",
+    "school-list": "/components/list/SchoolList",
+    "details-tit": "/components/library/DetailsTit",
+    "news-list": "/components/list/NewsList"
+  }
+}

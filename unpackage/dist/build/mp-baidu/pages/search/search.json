@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "搜一搜",
+  "onReachBottomDistance": 100,
+  "component": true,
+  "usingComponents": {
+    "search-input": "/pages/search/components/SearchInput",
+    "news-list": "/components/list/NewsList",
+    "major-list": "/components/list/MajorList",
+    "school-list": "/components/list/SchoolList",
+    "hot-search": "/pages/search/components/HotSearch",
+    "h-divider": "/components/library/HDivider"
+  }
+}
