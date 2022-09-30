@@ -1,1 +1,1 @@
-<view class="{{['xtx-skeleton','data-v-691f3a76',(animated)?'shan':'']}}" style="{{'width:'+(width)+';'+('height:'+(height)+';')+('border-radius:'+(borderRadius)+';')}}"><view class="block data-v-691f3a76" style="{{'background-color:'+(bg)+';'}}"></view></view>
+<view class="{{['xtx-skeleton','data-v-1fffaa8e',(animated)?'shan':'']}}" style="{{'width:'+(width)+';'+('height:'+(height)+';')+('border-radius:'+(borderRadius)+';')}}"><view class="block data-v-1fffaa8e" style="{{'background-color:'+(bg)+';'}}"></view></view>

@@ -74,7 +74,6 @@
 </template>
 
 <script>
-import SearchInput from '@/pages/search/components/SearchInput.vue'
 import HotSearch from '@/pages/search/components/HotSearch.vue'
 import { getSearch } from '@/api/other.js'
 import NewsList from '@/components/list/NewsList.vue'
@@ -100,7 +99,6 @@ export default {
 		}
 	},
 	components: {
-		SearchInput,
 		NewsList,
 		MajorList,
 		SchoolList,
@@ -298,11 +296,11 @@ export default {
 
 <style lang="scss" scoped>
 .wrap-st-searh-perch {
-	height: 95px;
+	height: 55px;
 }
-.wrap-st-searh {
+.wrap-box-search {
 	position: fixed;
-	z-index: 99999;
+	z-index: 999999999;
 	width: 100vw;
 	left: 0;
 	top: 0;

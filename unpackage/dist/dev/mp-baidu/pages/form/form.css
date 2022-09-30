@@ -24,10 +24,10 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-button::after {
+button.data-v-c4d460f4::after {
   border: none;
 }
-button {
+button.data-v-c4d460f4 {
   position: relative;
   display: block;
   margin-left: auto;
@@ -45,32 +45,51 @@ button {
   width: 100%;
   height: 100%;
 }
-page {
-  background-color: #fff;
+.container.data-v-c4d460f4 {
+  padding: 10px 15px;
+  background-color: #fff !important;
+  min-height: 100vh;
 }
-.container {
-  padding-top: 20px;
-}
-.form {
+.data-v-c4d460f4 .form {
   padding: 0px 10px;
 }
-.form .sw-1__uni-forms-item {
+.data-v-c4d460f4 .form .checklist-box.is--tag.is-checked {
+  background-color: #0092ff !important;
+  border-color: #0092ff !important;
+}
+.data-v-c4d460f4 .form .sw-1__uni-forms-item {
   margin-bottom: 18px;
 }
-.form .sw-1__uni-forms-item__label {
+.data-v-c4d460f4 .form .sw-1__uni-forms-item__label {
   padding: 0;
   margin-right: 5px;
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
-.form .submit-btn {
-  background: #00B4DB;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #0083B0, #00B4DB);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.data-v-c4d460f4 .form .uni-forms-item__label {
+  white-space: nowrap;
+  margin-right: 10rpx;
+}
+.data-v-c4d460f4 .form .uni-forms-item .is-required {
+  margin-left: -7px;
+}
+.data-v-c4d460f4 .form .submit-btn {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  padding: 5px 0;
+  padding: 6px 0;
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.data-v-c4d460f4 .form .submit-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 

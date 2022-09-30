@@ -46,11 +46,11 @@ button.data-v-4cedc0c6 {
   height: 100%;
 }
 .wrap-st-searh-perch.data-v-4cedc0c6 {
-  height: 95px;
+  height: 55px;
 }
-.wrap-st-searh.data-v-4cedc0c6 {
+.wrap-box-search.data-v-4cedc0c6 {
   position: fixed;
-  z-index: 99999;
+  z-index: 999999999;
   width: 100vw;
   left: 0;
   top: 0;

@@ -46,21 +46,22 @@ button.data-v-a4d1cbfa {
   height: 100%;
 }
 .container.data-v-a4d1cbfa {
-  background-color: #fff;
-  padding: 20px 15px;
   padding-bottom: 0;
 }
 .header.data-v-a4d1cbfa {
-  padding-bottom: 15px;
+  margin: 15px 10px !important;
+  padding: 10px;
+  background: #68e0cf;
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
 }
 .header .header-t.data-v-a4d1cbfa {
   display: flex;
 }
 .header .header-t .logo.data-v-a4d1cbfa {
-  width: 64px;
-  height: 64px;
+  width: 128rpx;
+  height: 128rpx;
   border-radius: 50%;
-  margin-right: 8px;
+  margin-right: 16rpx;
 }
 .header .header-t .header-t-r.data-v-a4d1cbfa {
   display: flex;
@@ -71,35 +72,57 @@ button.data-v-a4d1cbfa {
   font-weight: 600;
   font-size: 21px;
   line-height: 30px;
-  color: #222;
+  color: #fff;
+}
+.header .header-t .header-t-r .tags.data-v-a4d1cbfa {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .header .header-t .header-t-r .tags .item.data-v-a4d1cbfa {
+  margin-top: 4px;
   display: inline-block;
-  font-size: 12px;
-  margin-top: 6px;
-  margin-right: 8px;
-  padding: 1px 8px;
-  color: #fff;
   border-radius: 20px;
-  background-color: #0095fd;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-right: 8px;
 }
 .header .header-b.data-v-a4d1cbfa {
   margin-top: 15px;
-  font-size: 16px;
-  color: #555;
+  font-size: 14px;
+  color: #fff;
   text-align: justify;
+  letter-spacing: 0.2px;
   line-height: 20px;
 }
 .case.data-v-a4d1cbfa {
-  margin-top: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 20px 15px;
 }
 .tit.data-v-a4d1cbfa {
   font-size: 18px;
   font-weight: 700;
-  border-bottom: 2px solid #ddd;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
 }
-.tit .tit-name.data-v-a4d1cbfa {
-  border-bottom: 2px solid #0095fd;
+.tit.data-v-a4d1cbfa:before {
+  content: '';
+  width: 4px;
+  height: 12px;
+  border-radius: 5px;
+  margin-right: 4px;
+  display: block;
+  background-color: #0092ff;
+}
+.info .box.data-v-a4d1cbfa {
+  padding-left: 15px;
 }
 .info .box .item.data-v-a4d1cbfa {
   font-size: 16px;
@@ -107,9 +130,9 @@ button.data-v-a4d1cbfa {
   margin-top: 8px;
 }
 .content.data-v-a4d1cbfa {
-  font-size: 18px;
+  font-size: 16px;
   color: #222;
-  line-height: 29px;
+  line-height: 30px;
   letter-spacing: 0.2px;
   text-align: justify;
 }

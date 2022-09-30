@@ -11,7 +11,7 @@
     "host": "baiduboxapp",
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.560.9",
+            "swanJsVersion": "3.560.10",
             "extensionJsVersion": "1.21.2"
         }
     },
@@ -24,9 +24,9 @@
         }
     },
     "preview": {
-        "packageId": 979361
+        "packageId": 980105
     },
     "publish": {
-        "version": "1.0.11"
+        "version": "1.0.12"
     }
 }

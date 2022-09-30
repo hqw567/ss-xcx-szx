@@ -3,6 +3,7 @@ export default {
 	globalData: {
 		isFavor: false,
 		menuButtonInfo: {},
+		isWeb: false
 	},
 	onLaunch: function() {
 		// #ifdef MP
@@ -35,7 +36,9 @@ export default {
 		})
 		// 获取应用信息
 		uni.getSystemInfo({
-			success: function(res) {},
+			success: function(res) {
+				// console.log(res);
+			},
 		})
 		// #ifdef MP-BAIDU
 		// 获取用户是否关注

@@ -52,10 +52,10 @@ button.data-v-843c2ebe {
   margin-top: 8px;
 }
 .major-list .list-item .item-l.data-v-843c2ebe {
-  width: 64px;
-  height: 64px;
+  width: 128rpx;
+  height: 128rpx;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 20rpx;
 }
 .major-list .list-item .item-r.data-v-843c2ebe {
   display: flex;

@@ -3,11 +3,7 @@
 		<slot name="header"></slot>
 		<view class="major-list">
 			<template v-if="majorDataFn && majorDataFn.length">
-				<navigator
-					:url="`/pages/details/major?id=${item.id}`"
-					v-for="item in majorDataFn"
-					:key="item.id"
-				>
+				<navigator :url="`/pages/details/major?id=${item.id}`" v-for="item in majorDataFn" :key="item.id">
 					<view class="list-item" :style="itemStyle">
 						<image :src="item.titlepic" mode="" class="item-l"></image>
 						<view class="item-r">
@@ -29,21 +25,21 @@
 </template>
 
 <script>
-import { websiteUrl } from '@/config/config.js'
-import ListSkeleton from '@/components/library/ListSkeleton.vue'
+import { websiteUrl } from '@/config/config.js';
+import ListSkeleton from '@/components/library/ListSkeleton.vue';
 export default {
 	props: {
 		majorData: {
 			type: Array,
-			default: () => [],
+			default: () => []
 		},
 		itemStyle: {
 			type: Object,
-			default: () => {},
-		},
+			default: () => {}
+		}
 	},
 	components: {
-		ListSkeleton,
+		ListSkeleton
 	},
 	computed: {
 		majorDataFn() {
@@ -52,12 +48,12 @@ export default {
 					title: item.title,
 					titlepic: websiteUrl + item.titlepic,
 					smalltext: item.smalltext.substring(0, 33) + '...',
-					id: item.id,
-				}
-			})
-		},
-	},
-}
+					id: item.id
+				};
+			});
+		}
+	}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -71,10 +67,10 @@ export default {
 		// box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
 
 		.item-l {
-			width: 64px;
-			height: 64px;
+			width: 128rpx;
+			height: 128rpx;
 			flex-shrink: 0;
-			margin-right: 10px;
+			margin-right: 20rpx;
 		}
 
 		.item-r {

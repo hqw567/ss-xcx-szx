@@ -2,20 +2,13 @@
 	<view class="">
 		<slot name="header"></slot>
 		<template v-if="schoolListFn && schoolListFn.length">
-			<navigator
-				:url="`/pages/details/school?id=${item.id}`"
-				class="school-skip"
-				v-for="item in schoolListFn"
-				:key="item.id"
-			>
+			<navigator :url="`/pages/details/school?id=${item.id}`" class="school-skip" v-for="item in schoolListFn" :key="item.id">
 				<view class="school-item" :style="itemStyle">
 					<image :src="item.titlepic" mode="aspectFit" class="img"></image>
 					<view class="item-mid">
 						<view class="title">{{ item.title }}</view>
 						<view class="tags">
-							<view class="tag-item" v-for="sub in item.tagsArr" :key="sub">
-								{{ sub }}
-							</view>
+							<view class="tag-item" v-for="sub in item.tagsArr" :key="sub">{{ sub }}</view>
 						</view>
 						<view class="info">学校类型：{{ item.xuexiaoleixing }}</view>
 					</view>
@@ -30,16 +23,16 @@
 </template>
 
 <script>
-import { websiteUrl } from '@/config/config.js'
-import ListSkeleton from '@/components/library/ListSkeleton.vue'
+import { websiteUrl } from '@/config/config.js';
+import ListSkeleton from '@/components/library/ListSkeleton.vue';
 export default {
 	name: 'SchoolList',
 	data() {
-		return {}
+		return {};
 	},
 	props: ['schoolData', 'itemStyle'],
 	components: {
-		ListSkeleton,
+		ListSkeleton
 	},
 	computed: {
 		schoolListFn() {
@@ -49,16 +42,12 @@ export default {
 					titlepic: websiteUrl + item.titlepic,
 					id: item.id,
 					xuexiaoleixing: item.xuexiaoleixing,
-					tagsArr: [
-						item.xuexiaodiqu,
-						...item.xuexiaoxingzhi.split('|'),
-						...item.pttags.split('|'),
-					].filter(item => item.length > 0),
-				}
-			})
-		},
-	},
-}
+					tagsArr: [item.xuexiaodiqu, ...item.xuexiaoxingzhi.split('|'), ...item.pttags.split('|')].filter(item => item.length > 0)
+				};
+			});
+		}
+	}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -71,15 +60,15 @@ export default {
 	// box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
 	.item-mid {
 		width: 75%;
-		margin-left: 8px;
+		margin-left: 16rpx;
 		height: 80px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
 	.img {
-		width: 80px;
-		height: 80px;
+		width: 160rpx;
+		height: 160rpx;
 		flex-shrink: 0;
 	}
 	.title {
